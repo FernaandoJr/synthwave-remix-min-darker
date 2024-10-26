@@ -2,7 +2,7 @@
 	"name": "synthwave-remix-min-darker",
 	"displayName": "SynthWave '84 Min Darker Theme",
 	"description": "A mix of SynthWave '84 theme with Min Darker Theme.",
-	"icon": "images/spellIcon.png",
+	"icon": "./icon.png",
 	"version": "0.1.0",
 	"publisher": "SynthWave84MinDarkerTheme",
 	"repository": {
