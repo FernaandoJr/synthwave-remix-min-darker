@@ -3,6 +3,29 @@
 	"displayName": "synthwave-remix-min-darker",
 	"description": "",
 	"version": "0.0.1",
+	"publisher": "SynthWave84MinDarkerTheme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/FernaandoJr/synthwave-remix-min-darker"
+	},
+	"keywords": [
+		"themes",
+		"dark",
+		"synthwave",
+		"retrowave",
+		"80s",
+		"min darker SynthWave",
+		"min darker",
+		"SynthWave min darker",
+		"neon",
+		"vaporwave",
+		"outrun",
+		"dark-theme",
+		"retro",
+		"retro-futuristic",
+		"cyberpunk",
+		"dark-theme"
+	],
 	"engines": {
 		"vscode": "^1.94.0"
 	},
