@@ -1,9 +1,9 @@
 {
 	"name": "synthwave-remix-min-darker",
 	"displayName": "SynthWave '84 Remix Min Darker",
-	"description": "A mix of SynthWave '84 with Min Darker Theme.",
+	"description": "Variants of the Min Darker theme that I like to use for personal use.",
 	"icon": "icon.png",
-	"version": "1.6.4",
+	"version": "1.6.5",
 	"publisher": "FernaandoJr",
 	"repository": {
 		"type": "git",
@@ -30,6 +30,7 @@
 		"outrun",
 		"dark-theme",
 		"retro",
+		"clean theme",
 		"retro-futuristic",
 		"cyberpunk",
 		"dark-theme",
