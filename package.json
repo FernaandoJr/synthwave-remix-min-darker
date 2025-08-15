@@ -3,7 +3,7 @@
 	"displayName": "SynthWave '84 Remix Min Darker",
 	"description": "A mix of SynthWave '84 with Min Darker Theme.",
 	"icon": "icon.png",
-	"version": "1.5.4",
+	"version": "1.6.4",
 	"publisher": "FernaandoJr",
 	"repository": {
 		"type": "git",
@@ -32,7 +32,8 @@
 		"retro",
 		"retro-futuristic",
 		"cyberpunk",
-		"dark-theme"
+		"dark-theme",
+		"FernaandoJr"
 	],
 	"engines": {
 		"vscode": "^1.94.0"
@@ -43,9 +44,14 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "SynthWave '84 Min Darker Theme",
+				"label": "SynthWave 84' Remix Min Darker (by FernaandoJr)",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Synthwave Remix Min Darker-color-theme.json"
+				"path": "./themes/synthwave.json"
+			},
+			{
+				"label": "Remix Min Darker (by FernaandoJr)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/min-darker.json"
 			}
 		]
 	}

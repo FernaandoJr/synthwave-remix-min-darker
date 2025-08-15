@@ -1,5 +1,5 @@
 {
-	"name": "SynthWave '84 Min Darker Theme",
+	"name": "SynthWave 84' Remix Min Darker (by FernaandoJr)",
 	"type": "dark",
 	"semanticHighlighting": true,
 	"colors": {
@@ -96,12 +96,17 @@
 			"name": "Operator, Misc",
 			"scope": ["punctuation"],
 			"settings": {
-				"foreground": "#00ccff" //#cc4d82  #00ccff  #44f5dd
+				"foreground": "#00ccff"
 			}
 		},
 		{
 			"name": "Comment",
-			"scope": ["comment", "string.quoted.docstring.multi.python", "string.quoted.docstring.multi.python punctuation.definition.string.begin.python", "string.quoted.docstring.multi.python punctuation.definition.string.end.python"],
+			"scope": [
+				"comment",
+				"string.quoted.docstring.multi.python",
+				"string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
+				"string.quoted.docstring.multi.python punctuation.definition.string.end.python"
+			],
 			"settings": {
 				"foreground": "#7b82b5",
 				"fontStyle": "italic"
@@ -109,7 +114,11 @@
 		},
 		{
 			"name": "String",
-			"scope": ["string.quoted", "string.template", "punctuation.definition.string"],
+			"scope": [
+				"string.quoted",
+				"string.template",
+				"punctuation.definition.string"
+			],
 			"settings": {
 				"foreground": "#ff852e"
 			}
@@ -268,19 +277,23 @@
 			"name": "Control keyword",
 			"scope": "keyword.control",
 			"settings": {
-				"foreground": "#fede5d" // if else statements
+				"foreground": "#fede5d"
 			}
 		},
 		{
 			"name": "Operator",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#fad130" // operadores : ==
+				"foreground": "#fad130"
 			}
 		},
 		{
 			"name": "Special operator",
-			"scope": ["keyword.operator.new", "keyword.operator.expression", "keyword.operator.logical"],
+			"scope": [
+				"keyword.operator.new",
+				"keyword.operator.expression",
+				"keyword.operator.logical"
+			],
 			"settings": {
 				"foreground": "#fede5d"
 			}
@@ -336,14 +349,20 @@
 		},
 		{
 			"name": "Template expression",
-			"scope": ["punctuation.definition.template-expression.begin", "punctuation.definition.template-expression.end"],
+			"scope": [
+				"punctuation.definition.template-expression.begin",
+				"punctuation.definition.template-expression.end"
+			],
 			"settings": {
 				"foreground": "#72f1b8"
 			}
 		},
 		{
 			"name": "CSS property",
-			"scope": ["support.type.property-name.css", "support.type.property-name.json"],
+			"scope": [
+				"support.type.property-name.css",
+				"support.type.property-name.json"
+			],
 			"settings": {
 				"foreground": "#72f1b8"
 			}
@@ -385,7 +404,10 @@
 		},
 		{
 			"name": "Pseudo CSS",
-			"scope": ["entity.other.attribute-name.pseudo-element", "entity.other.attribute-name.pseudo-class"],
+			"scope": [
+				"entity.other.attribute-name.pseudo-element",
+				"entity.other.attribute-name.pseudo-class"
+			],
 			"settings": {
 				"foreground": "#D50"
 			}
@@ -470,7 +492,10 @@
 		},
 		{
 			"name": "C# properties and fields",
-			"scope": ["entity.name.variable.field.cs", "entity.name.variable.property.cs"],
+			"scope": [
+				"entity.name.variable.field.cs",
+				"entity.name.variable.property.cs"
+			],
 			"settings": {
 				"foreground": "#ff7edb"
 			}
@@ -485,7 +510,10 @@
 		},
 		{
 			"name": "C preprocessors",
-			"scope": ["keyword.control.directive.include.c", "keyword.control.directive.define.c"],
+			"scope": [
+				"keyword.control.directive.include.c",
+				"keyword.control.directive.define.c"
+			],
 			"settings": {
 				"foreground": "#72f1b8"
 			}
@@ -514,7 +542,10 @@
 		},
 		{
 			"name": "C++ include",
-			"scope": ["keyword.control.directive.include.cpp", "keyword.control.directive.define.cpp"],
+			"scope": [
+				"keyword.control.directive.include.cpp",
+				"keyword.control.directive.define.cpp"
+			],
 			"settings": {
 				"foreground": "#72f1b8"
 			}
@@ -528,7 +559,10 @@
 		},
 		{
 			"name": "Elixir Classes",
-			"scope": ["source.elixir support.type.elixir", "source.elixir meta.module.elixir entity.name.class.elixir"],
+			"scope": [
+				"source.elixir support.type.elixir",
+				"source.elixir meta.module.elixir entity.name.class.elixir"
+			],
 			"settings": {
 				"foreground": "#36f9f6"
 			}
@@ -542,7 +576,10 @@
 		},
 		{
 			"name": "Elixir Constants",
-			"scope": ["source.elixir constant.other.symbol.elixir", "source.elixir constant.other.keywords.elixir"],
+			"scope": [
+				"source.elixir constant.other.symbol.elixir",
+				"source.elixir constant.other.keywords.elixir"
+			],
 			"settings": {
 				"foreground": "#36f9f6"
 			}
@@ -556,7 +593,10 @@
 		},
 		{
 			"name": "Elixir",
-			"scope": ["source.elixir variable.other.readwrite.module.elixir", "source.elixir variable.other.readwrite.module.elixir punctuation.definition.variable.elixir"],
+			"scope": [
+				"source.elixir variable.other.readwrite.module.elixir",
+				"source.elixir variable.other.readwrite.module.elixir punctuation.definition.variable.elixir"
+			],
 			"settings": {
 				"foreground": "#72f1b8"
 			}
@@ -587,7 +627,10 @@
 		},
 		{
 			"name": "Clojure Metadata",
-			"scope": ["meta.metadata.simple.clojure", "meta.metadata.map.clojure"],
+			"scope": [
+				"meta.metadata.simple.clojure",
+				"meta.metadata.map.clojure"
+			],
 			"settings": {
 				"foreground": "#fe4450",
 				"fontStyle": "italic"
@@ -623,28 +666,49 @@
 		},
 		{
 			"name": "Go Keywords",
-			"scope": ["source.go keyword.package.go", "source.go keyword.import.go", "source.go keyword.function.go", "source.go keyword.type.go", "source.go keyword.const.go", "source.go keyword.var.go", "source.go keyword.map.go", "source.go keyword.channel.go", "source.go keyword.control.go"],
+			"scope": [
+				"source.go keyword.package.go",
+				"source.go keyword.import.go",
+				"source.go keyword.function.go",
+				"source.go keyword.type.go",
+				"source.go keyword.const.go",
+				"source.go keyword.var.go",
+				"source.go keyword.map.go",
+				"source.go keyword.channel.go",
+				"source.go keyword.control.go"
+			],
 			"settings": {
 				"foreground": "#fede5d"
 			}
 		},
 		{
 			"name": "Go interfaces",
-			"scope": ["source.go storage.type", "source.go keyword.struct.go", "source.go keyword.interface.go"],
+			"scope": [
+				"source.go storage.type",
+				"source.go keyword.struct.go",
+				"source.go keyword.interface.go"
+			],
 			"settings": {
 				"foreground": "#72f1b8"
 			}
 		},
 		{
 			"name": "Go Constants e.g. nil, string format (%s, %d, etc.)",
-			"scope": ["source.go constant.language.go", "source.go constant.other.placeholder.go", "source.go variable"],
+			"scope": [
+				"source.go constant.language.go",
+				"source.go constant.other.placeholder.go",
+				"source.go variable"
+			],
 			"settings": {
 				"foreground": "#2EE2FA"
 			}
 		},
 		{
 			"name": "Markdown links and image paths",
-			"scope": ["markup.underline.link.markdown", "markup.inline.raw.string.markdown"],
+			"scope": [
+				"markup.underline.link.markdown",
+				"markup.inline.raw.string.markdown"
+			],
 			"settings": {
 				"foreground": "#72f1b8",
 				"fontStyle": "italic"
@@ -659,7 +723,10 @@
 		},
 		{
 			"name": "Markdown headings",
-			"scope": ["markup.heading.markdown", "entity.name.section.markdown"],
+			"scope": [
+				"markup.heading.markdown",
+				"entity.name.section.markdown"
+			],
 			"settings": {
 				"foreground": "#eee234",
 				"fontStyle": "bold"
@@ -683,7 +750,10 @@
 		},
 		{
 			"name": "Markdown quotes",
-			"scope": ["punctuation.definition.quote.begin.markdown", "markup.quote.markdown"],
+			"scope": [
+				"punctuation.definition.quote.begin.markdown",
+				"markup.quote.markdown"
+			],
 			"settings": {
 				"foreground": "#72f1b8"
 			}
@@ -692,12 +762,20 @@
 			"name": "Basic source colours",
 			"scope": ["source.dart", "source.python", "source.scala"],
 			"settings": {
-				"foreground": "#f3c8e3" // dart, python scala main color
+				"foreground": "#f3c8e3"
 			}
 		},
 		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
-			"scope": ["string", "constant.other.symbol", "constant.other.key", "entity.other.inherited-class", "markup.heading", "markup.inserted.git_gutter", "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"],
+			"scope": [
+				"string",
+				"constant.other.symbol",
+				"constant.other.key",
+				"entity.other.inherited-class",
+				"markup.heading",
+				"markup.inserted.git_gutter",
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+			],
 			"settings": {
 				"foreground": "#f3c061fd"
 			}
